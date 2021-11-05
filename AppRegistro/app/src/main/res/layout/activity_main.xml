@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="297dp"
+        android:layout_height="22dp"
+        android:text="Phone"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Spinner
+        android:id="@+id/spin_Muni"
+        android:layout_width="268dp"
+        android:layout_height="102dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="294dp"
+        android:layout_height="0dp"
+        android:text="Name"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/txtLastName"
+        android:layout_width="298dp"
+        android:layout_height="23dp"
+        android:text="LastName"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <Spinner
+        android:id="@+id/spin_Depto"
+        android:layout_width="268dp"
+        android:layout_height="96dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:text="Save"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="143dp"
+        android:layout_height="90dp"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="205dp">
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radioFemale"
+        android:layout_width="145dp"
+        android:layout_height="44dp"
+        android:text="Femenino"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <RadioButton
+        android:id="@+id/radioMale"
+        android:layout_width="145dp"
+        android:layout_height="44dp"
+        android:text="Masculino"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="271dp"
+        android:layout_height="58dp"
+        android:text="Resultado"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
